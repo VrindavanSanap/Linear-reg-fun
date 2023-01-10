@@ -1,7 +1,7 @@
 # Linear regression with gradient descent
 
-### [Live demo!!](https://vrindavansanap.github.io/OrdinaryLeastSquare/)✨
-https://vrindavansanap.github.io/OrdinaryLeastSquare/
+### [Live demo!!](https://vrindavansanap.github.io/LinRegWithGradientDescent/)✨
+https://vrindavansanap.github.io/LinRegWithGradientDescent/
 
 
 
