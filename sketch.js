@@ -18,7 +18,7 @@ function gradientDescent(){
         let guess = m * x +b
         let error = guess - y
 
-        m += -error * x *0.01
+        m += -2 * error * x *0.01
         b += - error * 0.01
 
     }
