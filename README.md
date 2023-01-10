@@ -5,7 +5,7 @@ https://vrindavansanap.github.io/LinRegWithGradientDescent/
 
 
 
-Based on lecture by Daniel Shiffman https://www.youtube.com/watch?v=_cXuvTQl090
+Based on lecture by Daniel Shiffman https://www.youtube.com/watch?v=L-Lsfu4ab74
 
 
 
