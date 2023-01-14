@@ -1,9 +1,9 @@
 var data = [];
 var m = 1
 var b = 0
-var lr = 0.01
+var lr = 0.1
 function setup() {
-    createCanvas(1000, 1000)
+    createCanvas(500, 500)
     background(0)     //Black
 }
 
@@ -18,8 +18,8 @@ function gradientDescent() {
         let guess = m * x + b
         let error = guess - y
 
-        m += - error * x * lr * 10
-        b += - error * lr
+        m += - error * x * lr
+        b += - error * lr 
     }
 }
 
@@ -72,6 +72,6 @@ function draw() {
         drawLine(m, b)
     }
 
-    document.getElementById("m").innerText = "m = " + m.toFixed(2) 
-    document.getElementById("b").innerText = "b = " + b .toFixed(2)
+    document.getElementById("m").innerText = "m = " + m.toFixed(2)
+    document.getElementById("b").innerText = "b = " + b.toFixed(2)
 }
