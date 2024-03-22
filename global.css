@@ -1,0 +1,9 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+a#link {
+  color: blue;
+  text-decoration: underline;
+}
